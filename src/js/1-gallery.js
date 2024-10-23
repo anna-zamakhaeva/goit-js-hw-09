@@ -1,3 +1,6 @@
+import SimpleLightbox from "simplelightbox";
+import "simplelightbox/dist/simple-lightbox.min.css";
+
 const images = [
 {
     preview:
@@ -79,7 +82,7 @@ function createMarkup(arr) {
             
 }
 
-import SimpleLightbox from "simplelightbox";
+
 
 const galleryImage = new SimpleLightbox(".gallery a", {
     captionsData: "alt",
